@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="-5dp"
+        android:background="#EDFFEB3B"
+        android:backgroundTint="#FF9800"
+        android:gravity="center"
+        android:visibility="visible"
+        android:padding="10sp"
+        android:text="Who is the 44th president of the united states?"
+        android:textSize="44sp" />
+
+    <TextView
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="-2dp"
+        android:background="#EDFFEB3B"
+        android:backgroundTint="#FF9800"
+        android:gravity="center"
+        android:padding="10sp"
+        android:text="Barack Obama"
+        android:textSize="44sp"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="142dp"
+        android:layout_height="124dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="4dp"
+        app:srcCompat="@drawable/ajoutbouton" />
+</RelativeLayout>
